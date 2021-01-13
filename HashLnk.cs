@@ -189,11 +189,11 @@ namespace MenuWinX
 
         private static readonly KeyValuePair<string, string>[] SystemFolderMapping = new[]
         {
-                new KeyValuePair<string, string>(ExpandEnvVar("%PROGRAMFILES%").ToLower(), "{905E63B6-C1BF-494E-B29C-65B732D3D21A}"),
-                new KeyValuePair<string, string>(ExpandEnvVar("%WINDIR%\\System32").ToLower(), "{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}"),
-                new KeyValuePair<string, string>(ExpandEnvVar("%WINDIR%").ToLower(), "{F38BF404-1D43-42F2-9305-67DE0B28FC23}"),
-                new KeyValuePair<string, string>(ExpandEnvVar("%SYSTEMROOT%").ToLower(), "{F38BF404-1D43-42F2-9305-67DE0B28FC23}")
-            };
+            new KeyValuePair<string, string>(ExpandEnvVar("%PROGRAMFILES%").ToLower(), "{905E63B6-C1BF-494E-B29C-65B732D3D21A}"),
+            new KeyValuePair<string, string>(ExpandEnvVar("%WINDIR%\\System32").ToLower(), "{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}"),
+            new KeyValuePair<string, string>(ExpandEnvVar("%WINDIR%").ToLower(), "{F38BF404-1D43-42F2-9305-67DE0B28FC23}"),
+            new KeyValuePair<string, string>(ExpandEnvVar("%SYSTEMROOT%").ToLower(), "{F38BF404-1D43-42F2-9305-67DE0B28FC23}")
+        };
 
         private static readonly string WinXFolder = ExpandEnvVar(@"%LOCALAPPDATA%\Microsoft\Windows\WinX");
 
